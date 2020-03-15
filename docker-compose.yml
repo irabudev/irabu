@@ -6,18 +6,13 @@ networks:
       name: nginx-proxy
 
 services:
-    nginx:
-      build: ./nginx
-      ports:
-        - "80"
-      volumes:
-        - ./:/var/www:cached
-        - ./logs/nginx/:/var/log/nginx
-        - ./nginx/sites/:/etc/nginx/sites-available
-        - ./nginx/ssl/:/etc/nginx/ssl
-      environment:
-        VIRTUAL_HOST: irabu.dev
-        LETSENCRYPT_HOST: irabu.dev
-        LETSENCRYPT_EMAIL: info@irabu.co.tz
-      networks:
-        - default
+  website:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      VIRTUAL_HOST: irabu.dev
+      LETSENCRYPT_HOST: irabu.dev
+      LETSENCRYPT_EMAIL: info@irabu.co.tz
+    networks:
+      - default
