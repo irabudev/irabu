@@ -3,13 +3,13 @@
 </div>
 
 <div align="center">
-    <a href="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter">
-      <img src="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter/badges/gpa.svg" alt="Logo" />
+    <a href="https://codeclimate.com/github/irabuhq/irabu">
+      <img src="https://codeclimate.com/github/irabuhq/irabu/badges/gpa.svg" alt="Logo" />
     </a>
-    <a href='https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter'>
-      <img src="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter/badges/issue_count.svg" alt="Logo" />
+    <a href='https://codeclimate.com/github/irabuhq/irabu'>
+      <img src="https://codeclimate.com/github/irabuhq/irabu/badges/issue_count.svg" alt="Logo" />
     </a>
-    <a href='https://www.codacy.com/app/Vagr9K/gatsby-advanced-starter?utm_source=github.com&utm_medium=referral&utm_content=Vagr9K/gatsby-advanced-starter&utm_campaign=Badge_Grade'>
+    <a href='https://www.codacy.com/app/irabuhq/irabu?utm_source=github.com&utm_medium=referral&utm_content=irabuhq/irabu&utm_campaign=Badge_Grade'>
       <img src="https://api.codacy.com/project/badge/Grade/990fb54ea8094f2aa0ed77f14e859820" alt="Logo" />
     </a>
     <a href='https://github.com/prettier/prettier'>
@@ -27,12 +27,17 @@ Fork the project, make your changes there and merge new features when needed.
 Alternatively:
 
 ```sh
-git clone https://github.com/irabuhq/irabu.co.tz irabu # Clone the project
+git clone https://github.com/irabuhq/irabu irabu # Clone the project
 cd irabu
 yarn install # or yarn install
 yarn develop # or gatsby develop
 ```
 
-# Author
+## Author
 
-Irabu Developers ([@irabu-dev](https://twitter.com/irabu-dev))
+Developers at [irabu.dev](https://irabu.dev)
+
+### Find us on
+
+- Twitter - ([@irabudev](https://twitter.com/irabudev))
+- GitHub - ([irabudev](https://github.com/irabudev))
