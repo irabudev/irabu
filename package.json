@@ -1,7 +1,7 @@
 {
   "name": "irabu.dev",
   "description": "irabu developers arena",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "author": "irabu-developers <developers@irabu.co.tz>",
   "dependencies": {
     "gatsby": "^2.19.12",
@@ -56,7 +56,7 @@
   "keywords": [
     "gatsby","irabu.dev","irabu","irabu-company"
   ],
-  "license": "MIT",
+  "license": "Exclusive Copyright",
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
