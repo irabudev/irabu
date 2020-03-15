@@ -1,26 +1,96 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import UserLinks from "./UserLinks";
+import config from "../../data/SiteConfig";
 
 class Footer extends Component {
   render() {
-    const { config } = this.props;
-    const url = config.siteRss;
+
     const { copyright } = config;
     if (!copyright) {
       return null;
     }
     return (
-      <footer className="footer">
-        <UserLinks config={config} labeled />
-        <div className="notice-container">
-          <h4>{copyright}</h4>
-
-          <Link to={url}>
-            <button>Subscribe</button>
-          </Link>
+      <div className="footer-area-wrapper bg-gray">
+        <div className="footer-area section-space--ptb_80">
+          <div className="container">
+            <div className="row footer-widget-wrapper">
+              <div className="col-lg-6 col-md-6 col-sm-6 footer-widget">
+                <div className="footer-widget__logo mb-30">
+                  {/* <img src="assets/images/logo/dark-logo-160x48.png" className="img-fluid" alt=""> */}
+                </div>
+                <ul className="footer-widget__list">
+                  <li>58 Howard Street #2 San Francisco, CA 941</li>
+                  <li><Link to="mailto:contact@aeroland.com" className="hover-style-link">contact@aeroland.com</Link></li>
+                  <li><Link to="tel:123344556" className="hover-style-link text-black font-weight--bold">(+68)1221 09876</Link></li>
+                  <li><Link to="https://hasthemes.com/" className="hover-style-link text-color-primary">www.mitech.xperts.com</Link></li>
+                </ul>
+              </div>
+              <div className="col-lg-2 col-md-4 col-sm-6 footer-widget">
+                <h6 className="footer-widget__title mb-20">IT Services</h6>
+                <ul className="footer-widget__list">
+                  <li>
+                    <Link to="#" className="hover-style-link">Managed IT</Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-lg-2 col-md-4 col-sm-6 footer-widget">
+                <h6 className="footer-widget__title mb-20">Legal</h6>
+                <ul className="footer-widget__list">
+                  <li><Link to="#" className="hover-style-link">Terms of Payment</Link></li>
+                  <li><Link to="#" className="hover-style-link">Privacy Policy</Link></li>
+                </ul>
+              </div>
+              <div className="col-lg-2 col-md-4 col-sm-6 footer-widget">
+                <h6 className="footer-widget__title mb-20">Support</h6>
+                <ul className="footer-widget__list">
+                  <li><Link to="#" className="hover-style-link">Contact Us</Link></li>
+                  <li><Link to="#" className="hover-style-link">Cookies Policy</Link></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </footer>
+        <div className="footer-copyright-area section-space--pb_30">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-md-6 text-center text-md-left">
+                <span className="copyright-text">
+                  Copyright &copy; 
+                  {' '}
+                  {new Date().getFullYear()}
+                  {' '}
+                  {copyright}
+                  <Link to="https://hasthemes.com/" />
+                </span>
+              </div>
+              <div className="col-md-6 text-center text-md-right">
+                <ul className="list ht-social-networks solid-rounded-icon">
+                  <li className="item">
+                    <Link to="https://twitter.com" target="_blank" aria-label="Twitter" className="social-link hint--bounce hint--top hint--primary">
+                      <i className="fab fa-twitter link-icon" />
+                    </Link>
+                  </li>
+                  <li className="item">
+                    <Link to="https://facebook.com" target="_blank" aria-label="Facebook" className="social-link hint--bounce hint--top hint--primary">
+                      <i className="fab fa-facebook-f link-icon" />
+                    </Link>
+                  </li>
+                  <li className="item">
+                    <Link to="https://instagram.com" target="_blank" aria-label="Instagram" className="social-link hint--bounce hint--top hint--primary">
+                      <i className="fab fa-instagram link-icon" />
+                    </Link>
+                  </li>
+                  <li className="item">
+                    <Link to="https://linkedin.com" target="_blank" aria-label="Linkedin" className="social-link hint--bounce hint--top hint--primary">
+                      <i className="fab fa-linkedin link-icon" />
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     );
   }
 }
