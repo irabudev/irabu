@@ -32,3 +32,8 @@ Developers at [irabu.dev](https://irabu.dev)
 
 - Twitter - ([@irabudev](https://twitter.com/irabudev))
 - GitHub - ([irabudev](https://github.com/irabudev))
+
+## License
+
+[irabu.dev](https://irabu.dev) is under exclusive-copyright [Exclusive Copyright](https://choosealicense.com/no-permission/).
+[See Definition](https://www.csusa.org/page/Definitions#exclusiveright)
