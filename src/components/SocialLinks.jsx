@@ -4,18 +4,14 @@ import {
   LinkedinShareButton,
   TwitterShareButton,
   TelegramShareButton,
-  RedditShareButton,
   FacebookShareCount,
-  RedditShareCount,
   FacebookIcon,
   TwitterIcon,
   TelegramIcon,
   LinkedinIcon,
-  RedditIcon
 } from "react-share";
 import urljoin from "url-join";
-import config from "../../../data/SiteConfig";
-import "./SocialLinks.css";
+import config from "../../data/SiteConfig";
 
 class SocialLinks extends Component {
   render() {
@@ -30,12 +26,6 @@ class SocialLinks extends Component {
 
     return (
       <div className="social-links">
-        <RedditShareButton url={url} title={post.title}>
-          <RedditIcon round size={iconSize} />
-          <RedditShareCount url={url}>
-            {count => renderShareCount(count)}
-          </RedditShareCount>
-        </RedditShareButton>
         <TwitterShareButton url={url} title={post.title}>
           <TwitterIcon round size={iconSize} />
         </TwitterShareButton>
