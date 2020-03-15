@@ -3,15 +3,6 @@
 </div>
 
 <div align="center">
-    <a href="https://codeclimate.com/github/irabuhq/irabu">
-      <img src="https://codeclimate.com/github/irabuhq/irabu/badges/gpa.svg" alt="Logo" />
-    </a>
-    <a href='https://codeclimate.com/github/irabuhq/irabu'>
-      <img src="https://codeclimate.com/github/irabuhq/irabu/badges/issue_count.svg" alt="Logo" />
-    </a>
-    <a href='https://www.codacy.com/app/irabuhq/irabu?utm_source=github.com&utm_medium=referral&utm_content=irabuhq/irabu&utm_campaign=Badge_Grade'>
-      <img src="https://api.codacy.com/project/badge/Grade/990fb54ea8094f2aa0ed77f14e859820" alt="Logo" />
-    </a>
     <a href='https://github.com/prettier/prettier'>
       <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="Logo" />
     </a>
