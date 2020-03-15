@@ -7,7 +7,12 @@ networks:
 
 services:
   website:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - ./:/usr/src/app
     ports:
       - "80:80"
     environment:
