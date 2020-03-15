@@ -1,6 +1,6 @@
 const config = {
-  siteTitle: "Irabu Company Ltd", // Site title.
-  siteTitleShort: "Irabu Developers", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitle: "Irabu Developers", // Site title.
+  siteTitleShort: "irabu.dev", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Irabu Company Ltd", // Alternative site title for SEO.
   siteLogo: "/logos/irabu.svg", // Logo used for SEO and manifest.
   siteUrl: "https://irabu.dev", // Domain of your website without pathPrefix.
@@ -24,12 +24,12 @@ const config = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/irabu-dev",
+      url: "https://github.com/irabudev",
       iconClassName: "fa fa-github"
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/irabu-dev",
+      url: "https://twitter.com/irabudev",
       iconClassName: "fa fa-twitter"
     },
     {
