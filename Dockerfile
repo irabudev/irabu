@@ -1,2 +1,2 @@
 FROM gatsbyjs/gatsby:latest
-COPY public/ /pub
+COPY ./public/ /pub
