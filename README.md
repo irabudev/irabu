@@ -1,20 +1,5 @@
-<div align="center" style="margin-bottom:30px">
-    <a href='https://github.com/vagr9k/gatsby-advanced-starter/blob/master/LICENSE'>
-    <img src="https://img.shields.io/github/license/vagr9k/gatsby-advanced-starter.svg" alt="Logo" />
-    </a>
-    <a href='https://github.com/vagr9k/gatsby-advanced-starter'>
-    <img src="https://img.shields.io/github/tag/vagr9k/gatsby-advanced-starter.svg" alt="Logo" />
-    </a>
-        <a href='https://github.com/vagr9k/gatsby-advanced-starter/stargazers'>
-    <img src="https://img.shields.io/github/stars/vagr9k/gatsby-advanced-starter.svg" alt="Logo" />
-    </a>
-        
-  <a href="https://twitter.com/irabudev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @irabudev</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
-
 <div align="center"  style="margin-bottom:30px">
-    <img src="static/logos/irabu.svg" alt="Logo" width='200px' height='200px'/>
+    <img src="static/logos/irabu.svg" alt="Logo" width='100px' height='auto'/>
 </div>
 
 <div align="center">
@@ -29,6 +14,9 @@
     </a>
     <a href='https://github.com/prettier/prettier'>
       <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="Logo" />
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Firabuhq%2Firabu.co.tz%2Fblob%2Firabu-dev">
+    <img alt="Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Firabudev">
     </a>
 </div>
 
