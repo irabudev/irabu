@@ -3,113 +3,41 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     return (
-      <div className="feature-images-wrapper bg-gray section-space--ptb_100">
+      <div className="processing-hero processing-hero-bg">
         <div className="container">
-
-          <div className="row">
-            <div className="col-lg-12">
-                        
-              <div className="section-title-wrap text-center">
-                <h6 className="section-sub-title mb-20">Our services</h6>
-                <h3 className="heading">
-                  For your very specific industry, we have
+          <div className="row align-items-center">
+            <div className="col-lg-8 col-md-7">
+              <div className="processing-hero-text wow move-up">
+                <h6>IT Software and design </h6>
+                <h1 className="font-weight--reguler mb-15">
+                  Virtual technology in a
                   {' '}
-                  <span className="text-color-primary"> highly-tailored IT solutions.</span>
-                </h3>
-              </div>
-                        
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-12">
-              <div className="feature-images__one">
-                <div className="row">
-
-                  <div className="col-lg-4 col-md-6 wow move-up">
-                                    
-                    <div className="ht-box-images style-01">
-                      <div className="image-box-wrap">
-                        <div className="box-image">
-                          {/* <img className="img-fulid" src="assets/images/icons/mitech-box-image-style-01-image-01-100x108.png" alt=""> */}
+                  <span className="text-color-secondary">Refined IT System</span>
+                </h1>
+                <p>Set the trends for desktop &amp; server virtualization technology</p>
+                <div className="hero-button mt-30">
+                  <a href="index-processing.html#" className="btn btn--secondary">Free Sample</a>
+                  <div className="hero-popup-video video-popup">
+                    <a href="https://www.youtube.com/watch?v=vqZuSUtczbU" className="video-link">
+                      <div className="video-content">
+                        <div className="video-play">
+                          <span className="video-play-icon">
+                            <i className="fa fa-play" />
+                          </span>
                         </div>
-                        <div className="content">
-                          <h5 className="heading">IT Design </h5>
-                          <div className="text">
-                            We provide the most responsive and functional IT design for companies and businesses worldwide.
-                          </div>
-                          <div className="circle-arrow">
-                            <div className="middle-dot" />
-                            <div className="middle-dot dot-2" />
-                            <a href="index-infotechno.html#">
-                              <i className="far fa-long-arrow-right" />
-                            </a>
-                          </div>
-                        </div>
+                        <div className="video-text"> How we work</div>
                       </div>
-                    </div>
-                                    
+                    </a>
                   </div>
-
-                  <div className="col-lg-4 col-md-6 wow move-up">
-                                    
-                    <div className="ht-box-images style-01">
-                      <div className="image-box-wrap">
-                        <div className="box-image">
-                          {/* <img className="img-fulid" src="assets/images/icons/mitech-box-image-style-01-image-02-100x108.png" alt=""> */}
-                        </div>
-                        <div className="content">
-                          <h5 className="heading">IT Management</h5>
-                          <div className="text">
-                            It’s possible to simultaneously manage and transform information from one server to another.
-                          </div>
-                          <div className="circle-arrow">
-                            <div className="middle-dot" />
-                            <div className="middle-dot dot-2" />
-                            <a href="index-infotechno.html#">
-                              <i className="far fa-long-arrow-right" />
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                                    
-                  </div>
-
-                  <div className="col-lg-4 col-md-6 wow move-up">
-                                    
-                    <div className="ht-box-images style-01">
-                      <div className="image-box-wrap">
-                        <div className="box-image">
-                          {/* <img className="img-fulid" src="assets/images/icons/mitech-box-image-style-01-image-03-100x108.png" alt=""> */}
-                        </div>
-                        <div className="content">
-                          <h5 className="heading">Data Security</h5>
-                          <div className="text">
-                            Back up your database, store in a safe and secure place while still maintaining its accessibility.
-                          </div>
-                          <div className="circle-arrow">
-                            <div className="middle-dot" />
-                            <div className="middle-dot dot-2" />
-                            <a href="index-infotechno.html#">
-                              <i className="far fa-long-arrow-right" />
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                                    
-                  </div>
-
                 </div>
               </div>
-
-              <div className="section-under-heading text-center section-space--mt_60 section-space--pt_30">
-                Challenges are just opportunities in disguise.
-                {' '}
-                <a href="index-infotechno.html#">Take the challenge!</a>
+            </div>
+            <div className="col-lg-4 col-md-5">
+              <div className="processing-hero-images-wrap wow move-up">
+                <div className="processing-hero-images">
+                  {/* <img class="img-fluid" src="assets/images/hero/slider-processing-slide-01-image-01.png" alt=""> */}
+                </div>
               </div>
-
             </div>
           </div>
         </div>
