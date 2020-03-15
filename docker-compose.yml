@@ -14,7 +14,7 @@ services:
     volumes:
       - ./:/usr/src/app
     ports:
-      - "80:80"
+      - "80"
     environment:
       VIRTUAL_HOST: irabu.dev
       LETSENCRYPT_HOST: irabu.dev
