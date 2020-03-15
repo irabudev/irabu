@@ -1,10 +1,10 @@
 const config = {
-  siteTitle: "Irabu Developers", // Site title.
+  siteTitle: "Developers at irabu", // Site title.
   siteTitleShort: "irabu.dev", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "Irabu Company Ltd", // Alternative site title for SEO.
+  siteTitleAlt: "Developers arena at irabu", // Alternative site title for SEO.
   siteLogo: "/logos/irabu.svg", // Logo used for SEO and manifest.
   siteUrl: "https://irabu.dev", // Domain of your website without pathPrefix.
-  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  pathPrefix: "/news", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Build to simplify.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "Irabu Developers RSS feed", // Title of the RSS feed
@@ -38,7 +38,7 @@ const config = {
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2020. IRABU COMPANY LTD.", // Copyright string for the footer of the website and RSS feed.
+  copyright: "IRABU COMPANY LTD, All Rights Reserved", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0" // Used for setting manifest background color.
 };
