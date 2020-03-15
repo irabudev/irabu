@@ -1,6 +1,6 @@
 {
   "name": "irabu.dev",
-  "description": "Irabu Developers paradise",
+  "description": "irabu developers arena",
   "version": "1.1.0",
   "author": "irabu-developers <developers@irabu.co.tz>",
   "dependencies": {
@@ -11,7 +11,6 @@
     "gatsby-plugin-google-analytics": "^2.1.35",
     "gatsby-plugin-lodash": "^3.1.20",
     "gatsby-plugin-manifest": "^2.2.41",
-    "gatsby-plugin-netlify-cms": "^4.1.38",
     "gatsby-plugin-nprogress": "^2.1.19",
     "gatsby-plugin-offline": "^3.0.34",
     "gatsby-plugin-react-helmet": "^3.1.22",
@@ -29,7 +28,6 @@
     "gatsby-transformer-sharp": "^2.3.14",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
-    "netlify-cms-app": "^2.11.13",
     "prismjs": "^1.19.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
