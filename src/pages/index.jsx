@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
 import Layout from "../layout";
-import About from "../components/About";
+import Landing from "../components/Landing";
 import config from "../../data/SiteConfig";
 
-class AboutPage extends Component {
+class HomePage extends Component {
   render() {
     return (
       <Layout>
-        <div className="about-container">
-          <Helmet title={`About | ${config.siteTitle}`} />
-          <About />
+        <div className="container">
+          <Helmet title={`Home | ${config.siteTitle}`} />
+          <Landing />
         </div>
       </Layout>
     );
   }
 }
 
-export default AboutPage;
+export default HomePage;
