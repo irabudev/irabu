@@ -19,10 +19,10 @@ class Footer extends Component {
                   {/* <img src="assets/images/logo/dark-logo-160x48.png" className="img-fluid" alt=""> */}
                 </div>
                 <ul className="footer-widget__list">
-                  <li>58 Howard Street #2 San Francisco, CA 941</li>
-                  <li><Link to="mailto:contact@aeroland.com" className="hover-style-link">contact@aeroland.com</Link></li>
-                  <li><Link to="tel:123344556" className="hover-style-link text-black font-weight--bold">(+68)1221 09876</Link></li>
-                  <li><Link to="https://hasthemes.com/" className="hover-style-link text-color-primary">www.mitech.xperts.com</Link></li>
+                  <li>Kilongawima Street Dar es Salaam, Tanzania</li>
+                  <li><Link to="mailto:developers@irabu.co.tz" className="hover-style-link">developers@irabu.co.tz</Link></li>
+                  <li><Link to="tel:123344556" className="hover-style-link text-black font-weight--bold">(+255)764 556463</Link></li>
+                  <li><Link to="https://irabu.dev/" className="hover-style-link text-color-primary">irabu.dev</Link></li>
                 </ul>
               </div>
               <div className="col-lg-2 col-md-4 col-sm-6 footer-widget">
@@ -60,13 +60,13 @@ class Footer extends Component {
                   {new Date().getFullYear()}
                   {' '}
                   {copyright}
-                  <Link to="https://hasthemes.com/" />
+                  <Link to="https://irabu.dev/" />
                 </span>
               </div>
               <div className="col-md-6 text-center text-md-right">
                 <ul className="list ht-social-networks solid-rounded-icon">
                   <li className="item">
-                    <Link to="https://twitter.com" target="_blank" aria-label="Twitter" className="social-link hint--bounce hint--top hint--primary">
+                    <Link to="https://twitter.com/irabudev" target="_blank" aria-label="Twitter" className="social-link hint--bounce hint--top hint--primary">
                       <i className="fab fa-twitter link-icon" />
                     </Link>
                   </li>
@@ -76,7 +76,7 @@ class Footer extends Component {
                     </Link>
                   </li>
                   <li className="item">
-                    <Link to="https://instagram.com" target="_blank" aria-label="Instagram" className="social-link hint--bounce hint--top hint--primary">
+                    <Link to="https://instagram.com/irabudev" target="_blank" aria-label="Instagram" className="social-link hint--bounce hint--top hint--primary">
                       <i className="fab fa-instagram link-icon" />
                     </Link>
                   </li>
