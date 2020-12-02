@@ -1,145 +1,122 @@
-import React, { Component } from "react";
-import { Link  } from "gatsby";
+import React from "react";
+import { useIntl } from "gatsby-plugin-intl";
+import gorocket from "../../static/images/portfolio/gorocket.png";
+import jiranileo from "../../static/images/portfolio/jiranileo.png";
+import comingSoon from "../../static/images/ComingSoonAppStore.png";
+import playstore from "../../static/images/playstore.png";
 
-class CaseStudy extends Component {
-    render() {
-        return (
-          <div className="feature-large-images-wrapper section-space--ptb_100">
-            <div className="container">
+function CaseStudy() {
+  const intl = useIntl();
 
+  return (
+    <div
+      className="service-projects-wrapper section-space--pt_100 mb-20"
+      id="case-studies"
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="section-title-wrap text-center section-space--mb_60">
+              <h6 className="section-sub-title mb-20">Case studies</h6>
+              <h3 className="heading">
+                Proud projects that
+                <span className="text-color-primary"> make us stand out</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div className="swiper-container service-slider__project-active">
+          <div className="swiper-wrapper service-slider__project">
+            <div className="swiper-slide">
               <div className="row">
-                <div className="col-lg-12">
-                        
-                  <div className="section-title-wrap text-center section-space--mb_60">
-                    <h6 className="section-sub-title mb-20">Our company</h6>
-                    <h3 className="heading">
-                      We run all kinds of IT services that vow your
-                      {' '}
-                      <span className="text-color-primary"> success</span>
-                    </h3>
-                  </div>
-                        
-                </div>
-              </div>
-
-              <div className="cybersecurity-about-box section-space--pb_100">
-                <div className="row">
-                  <div className="col-lg-4 offset-lg-1">
-                    <div className="modern-number-01">
-                      <h2 className="heading  mr-5">
-                        <span className="mark-text">5+</span>
-                        Years’ Experience in IT
-                      </h2>
-                      <h6 className="heading mt-30">Learn more about our Success Stories</h6>
+                <div className="slide-content col-lg-6 col-xl-5 order-2 order-lg-1">
+                  <div className="service-project-slide-info">
+                    <h4 className="heading font-weight--reguler mb-10">
+                      Gorocket
+                    </h4>
+                    <p className="sub-text text-color-primary">
+                      WEB, iOS , ANDROID
+                    </p>
+                    <div className="text mb-10">
+                      {intl.formatMessage({ id: "index-gorocket" })}
                     </div>
+                    <a
+                      href="https://app.gorocket.co/"
+                      className="text-color-primary"
+                    >
+                      <span>
+                        <i className="fas fa-chevron-right"></i>
+                        app.gorocket.co
+                      </span>
+                    </a>
                   </div>
+                </div>
 
-                  <div className="col-lg-5 offset-lg-1">
-                    <div className="cybersecurity-about-text">
-                      <div className="text">Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.</div>
-                      <div className="button-text">
-                        <Link to="index-cybersecurity.html#" className="btn-text">
-                          Discover now
-                          <span className="button-icon ml-1">
-                            <i className="far fa-long-arrow-right" />
-                          </span>
-                        </Link>
+                <div className="col-lg-6 col-xl-7 order-1 order-lg-2">
+                  <div className="slide-image">
+                    <div className="image-wrap">
+                      <div className="image">
+                        <img
+                          className="img-fluid"
+                          src={gorocket}
+                          alt="Rocket Inc"
+                        />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-
-
+            </div>
+            <div className="swiper-slide">
               <div className="row">
-                <div className="col-12">
-                  <div className="row">
-
-                    <div className="col-lg-4 col-md-6 wow move-up">
-                                
-                      <Link to="index-cybersecurity.html#" className="ht-large-box-images style-03">
-                        <div className="large-image-box">
-                          <div className="box-image">
-                            <div className="default-image">
-                              {/* <img class="img-fluid" src="assets/images/box-image/blog-01-480x298.jpg" alt=""> */}
-                            </div>
-                          </div>
-                          <div className="content">
-                            <h5 className="heading">Quality Assurance System</h5>
-                            <div className="text">
-                              At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.
-                            </div>
-                            <div className="box-images-arrow">
-                              <span className="button-text">Discover now</span>
-                              <i className="far fa-long-arrow-right" />
-                            </div>
-                          </div>
-                        </div>
-                      </Link>
-                                
+                <div className="slide-content col-lg-6 col-xl-5 order-2 order-lg-1">
+                  <div className="service-project-slide-info">
+                    <h4 className="heading font-weight--reguler mb-10">
+                      Jiranileo RSVP
+                    </h4>
+                    <p className="sub-text text-color-primary">iOS , ANDROID</p>
+                    <div className="text mb-10">
+                      {intl.formatMessage({ id: "index-jiranileo" })}
                     </div>
-                    <div className="col-lg-4 col-md-6 wow move-up">
-                                
-                      <Link to="index-cybersecurity.html#" className="ht-large-box-images style-03">
-                        <div className="large-image-box">
-                          <div className="box-image">
-                            <div className="default-image">
-                              {/* <img class="img-fluid" src="assets/images/box-image/mitech-home-infotechno-box-large-image-03-480x298.jpg" alt=""> */}
-                            </div>
-                          </div>
-                          <div className="content">
-                            <h5 className="heading">Highly Professional Staffs</h5>
-                            <div className="text">
-                              Having obtained the official &amp; formal training in IT technology and technical fields, our staffs know best.
-                            </div>
-                            <div className="box-images-arrow">
-                              <span className="button-text">Discover now</span>
-                              <i className="far fa-long-arrow-right" />
-                            </div>
-                          </div>
-                        </div>
-                      </Link>
-                                
-                    </div>
-                    <div className="col-lg-4 col-md-6 wow move-up">
-                      <Link to="index-cybersecurity.html#" className="ht-large-box-images style-03">
-                        <div className="large-image-box">
-                          <div className="box-image">
-                            <div className="default-image">
-                              {/* <img class="img-fluid" src="assets/images/box-image/mitech-home-infotechno-box-large-image-02-480x298.jpg" alt=""> */}
-                            </div>
-                          </div>
-                          <div className="content">
-                            <h5 className="heading">Info Security Management</h5>
-                            <div className="text">
-                              At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.
-                            </div>
-                            <div className="box-images-arrow">
-                              <span className="button-text">Discover now</span>
-                              <i className="far fa-long-arrow-right" />
-                            </div>
-                          </div>
-                        </div>
-                      </Link>
-                    </div>
-
-
+                    <a
+                      href="https://play.google.com/store/apps/details?id=tz.co.irabu.jiranileorsvp"
+                      className="text-color-primary"
+                    >
+                      <span>
+                        <img className="width-160 " src={comingSoon} />
+                      </span>
+                    </a>
+                    <a href="#" className="text-color-primary">
+                      <span>
+                        <img
+                          className="width-160 "
+                          src={playstore}
+                        />
+                      </span>
+                    </a>
                   </div>
+                </div>
 
-                  <div className="section-under-heading text-center section-space--mt_20">
-                    Challenges are just opportunities in disguise
-                    {' '}
-                    <Link to="index-cybersecurity.html#">Take the challenge!</Link>
+                <div className="col-lg-6 col-xl-7 order-1 order-lg-2">
+                  <div className="slide-image">
+                    <div className="image-wrap">
+                      <div className="image">
+                        <img
+                          className="img-fluid"
+                          src={jiranileo}
+                          alt="Jiranileo"
+                        />
+                      </div>
+                    </div>
                   </div>
-
-
                 </div>
               </div>
             </div>
           </div>
-        );
-    }
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default CaseStudy;
-
