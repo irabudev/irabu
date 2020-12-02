@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://irabu.dev/news/news/en/offline-plugin-app-shell-fallback/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/sw/offline-plugin-app-shell-fallback/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/articles</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/en/articles</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/sw/articles</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/big-sample-test</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/en/big-sample-test</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/sw/big-sample-test</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/tags/test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/en/tags/test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/sw/tags/test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/tags/huge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/en/tags/huge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/sw/tags/huge/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/categories/moar/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/en/categories/moar/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/sw/categories/moar/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/en/404/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/sw/404/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/en/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/sw/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/en/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/sw/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/process/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/en/process/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/sw/process/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/stack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/en/stack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/sw/stack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/en/404.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://irabu.dev/news/news/sw/404.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
