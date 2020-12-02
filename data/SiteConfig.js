@@ -4,7 +4,7 @@ const config = {
   siteTitleAlt: "Developers arena at irabu", // Alternative site title for SEO.
   siteLogo: "/logos/irabu.svg", // Logo used for SEO and manifest.
   siteUrl: "https://irabu.dev", // Domain of your website without pathPrefix.
-  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  pathPrefix: "/articles", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Build to simplify.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "Irabu Developers RSS feed", // Title of the RSS feed
