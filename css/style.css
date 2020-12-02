@@ -1,4 +1,11 @@
+/*! purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/*! purgecss end ignore */
+@tailwind utilities;
+
 /* purgecss start ignore */
+
 
 /*============================
     CSS Index         
@@ -353,7 +360,7 @@ select {
   outline: none;
   border: 1px solid #f8f8f8;
   border-radius: 5px;
-  background: #f8f8f8 url("/static/images/icons/selector-icon.png") no-repeat
+  background: #f8f8f8 url("../images/icons/selector-icon.png") no-repeat
     center right 20px;
   background-color: #f8f8f8;
   -moz-appearance: none;
@@ -361,7 +368,7 @@ select {
 }
 
 select:focus {
-  background: #f8f8f8 url("/static/images/icons/selector-icon.png") no-repeat
+  background: #f8f8f8 url("../images/icons/selector-icon.png") no-repeat
     center right 20px !important;
 }
 
@@ -800,7 +807,7 @@ input[type="checkbox"] {
   padding-top: 136px;
   padding-bottom: 131px;
   background-size: cover;
-  background-image: url(/static/images/bg/title-bar-01-bg.jpg);
+  background-image: url(../images/bg/title-bar-01-bg.jpg);
 }
 
 @media only screen and (max-width: 767px),
@@ -4007,7 +4014,7 @@ input[type="checkbox"] {
   transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
   z-index: 9999;
   background: rgba(0, 0, 0, 0.7);
-  cursor: url(/static/images/icons/light-close.png) 16 16, pointer;
+  cursor: url(../images/icons/light-close.png) 16 16, pointer;
   visibility: hidden;
   opacity: 0;
 }
@@ -5660,14 +5667,14 @@ input[type="checkbox"] {
   =============================================*/
 .cta-bg-image_one {
   background-color: #454545;
-  background-image: url(/static/images/patterns/mitech-call-to-action-image-global.png);
+  background-image: url(../images/patterns/mitech-call-to-action-image-global.png);
   background-repeat: no-repeat;
   background-position: top 35% right -68px;
 }
 
 .cta-bg-image_two {
   background-color: #f6f2ed;
-  background-image: url(/static/images/patterns/mitech-home-appointment-call-to-action-bg-image.png);
+  background-image: url(../images/patterns/mitech-home-appointment-call-to-action-bg-image.png);
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -8987,7 +8994,7 @@ ol {
 }
 
 .row-separators-images {
-  background-image: url(/static/images/bg/home-resolutions-hero-bg-image.jpg);
+  background-image: url(../images/bg/home-resolutions-hero-bg-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10730,7 +10737,7 @@ ol {
   =          32. Project Css           =
   ====================================*/
 .projectinfotechno-bg {
-  background-image: url(/static/images/patterns/mitech-home-infotechno-case-study-section-bg.png);
+  background-image: url(../images/patterns/mitech-home-infotechno-case-study-section-bg.png);
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -10970,26 +10977,26 @@ ol {
 }
 
 .contact-form__two select:focus {
-  background: #fff url("/static/images/icons/selector-icon.png") no-repeat
+  background: #fff url("../images/icons/selector-icon.png") no-repeat
     center right 20px !important;
 }
 
 .appointment-contact-bg {
-  background: url(/static/images/bg/home-appointment-contact-bg-image.png);
+  background: url(../images/bg/home-appointment-contact-bg-image.png);
   background-repeat: no-repeat;
   background-position: center right;
 }
 
 .service-contact-bg {
   background-color: #002fa6;
-  background-image: url(/static/images/bg/mitech-home-services-contact-bg.png);
+  background-image: url(../images/bg/mitech-home-services-contact-bg.png);
   background-repeat: no-repeat;
   background-position: left bottom;
 }
 
 .processing-contact-us-bg {
   background-color: #002fa6;
-  background-image: url(/static/images/bg/mitech-processing-contact-bg.png);
+  background-image: url(../images/bg/mitech-processing-contact-bg.png);
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -11052,7 +11059,7 @@ ol {
 
 .infotechno-contact-us-bg {
   background-color: #eff2f6;
-  background-image: url(/static/images/bg/home-infotechno-contact-bg.jpg);
+  /* background-image: url(../images/bg/home-infotechno-contact-bg.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -11490,7 +11497,7 @@ ol {
   transform: translateX(-50%);
   height: 132px;
   width: 150px;
-  background: url(/static/images/icons/quote.png) no-repeat;
+  background: url(../images/icons/quote.png) no-repeat;
 }
 
 .single-blog-item .post-quote .post-quote-name {
@@ -11733,7 +11740,7 @@ ol {
   position: absolute;
   top: 36px;
   left: 0;
-  background: url(https://demo.hasthemes.com/mitech-preview/assets/static/images/icons/metro-quote.png)
+  background: url(../images/icons/quote.png)
     no-repeat;
   width: 150px;
   height: 132px;
@@ -12363,13 +12370,13 @@ blockquote {
       video section css
   --------------------------*/
 .infotechno-section-bg-01 {
-  background: url(/static/images/patterns/mitech-home-infotechno-section-company-bg.png)
+  background: url(../images/patterns/mitech-home-infotechno-section-company-bg.png)
       top 140px left no-repeat,
     -webkit-linear-gradient(top, #fff 0, #f5f5f5 100%);
 }
 
 .infotechno-video-bg {
-  background-image: url(/static/images/bg/home-infotechno-video-intro-bg.jpg);
+  background-image: url(../images/bg/home-infotechno-video-intro-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -12489,7 +12496,7 @@ blockquote {
 .processing-hero-bg {
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("/static/images/hero/slider-processing-slide-01-bg.jpg");
+  background-image: url("../images/hero/slider-processing-slide-01-bg.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -12936,7 +12943,7 @@ blockquote {
 .appointment-hero-bg {
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("/static/images/hero/home-appointment-hero-bg-image.jpg");
+  background-image: url("../images/hero/home-appointment-hero-bg-image.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -13004,7 +13011,7 @@ blockquote {
 .service-hero-bg {
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("/static/images/hero/home-services-hero-bg.jpg");
+  background-image: url("../images/hero/home-services-hero-bg.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -13125,7 +13132,7 @@ blockquote {
 .service-hero-text .service-solution-form-wrap select {
   border-color: #4098e5;
   background-color: #4098e5;
-  background-image: url("/static/images/icons/hero-selector-icon.png");
+  background-image: url("../images/icons/hero-selector-icon.png");
   color: #fff;
   font-weight: 500;
   padding: 3px 30px;
@@ -13133,7 +13140,7 @@ blockquote {
 }
 
 .service-hero-text .service-solution-form-wrap select:focus {
-  background: #4098e5 url("/static/images/icons/hero-selector-icon.png")
+  background: #4098e5 url("../images/icons/hero-selector-icon.png")
     no-repeat center right 20px !important;
 }
 
@@ -13320,7 +13327,7 @@ blockquote {
 .resolutions-hero-bg {
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("/static/images/hero/home-resolutions-hero-bg-image.jpg");
+  background-image: url("../images/hero/home-resolutions-hero-bg-image.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -13645,7 +13652,7 @@ blockquote {
 .about-resources-wrapper {
   padding: 40px 0;
   background-color: #f8f8f8;
-  background-image: url(/static/images/bg/mitech-slider-cybersecurity-global-image.png);
+  background-image: url(../images/bg/mitech-slider-cybersecurity-global-image.png);
   background-repeat: no-repeat;
   background-position: center right 40px;
 }
@@ -14293,7 +14300,7 @@ blockquote {
 }
 
 .preview-hero-bg {
-  background: url(/static/images/hero/mitech-landing-main-slider-bg.jpg);
+  background: url(../images/hero/mitech-landing-main-slider-bg.jpg);
   background-size: cover;
   background-position: 50% 50%;
   background-color: transparent;
@@ -14506,7 +14513,7 @@ blockquote {
 }
 
 .layout-section-bg {
-  background: url(/static/images/preview/mitech-landing-header-preview-bg.png);
+  background: url(../images/preview/mitech-landing-header-preview-bg.png);
   background-color: #f6f2ed;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -14548,7 +14555,7 @@ blockquote {
 }
 
 .prv-section-footer-bg {
-  background: url(/static/images/preview/mitech-landing-footer-bg-01.jpg);
+  background: url(../images/preview/mitech-landing-footer-bg-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
