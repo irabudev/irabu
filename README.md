@@ -26,7 +26,7 @@ yarn develop # or gatsby develop
 
 ## Author
 
-Developers at [irabu.dev](https://irabu.dev)
+Developers at [irabu.co.tz](https://irabu.co.tz)
 
 ### Find us on
 
@@ -35,5 +35,5 @@ Developers at [irabu.dev](https://irabu.dev)
 
 ## License
 
-[irabu.dev](https://irabu.dev) is under exclusive-copyright [Exclusive Copyright](https://choosealicense.com/no-permission/).
+[irabu.co.tz](https://irabu.co.tz) is under exclusive-copyright [Exclusive Copyright](https://choosealicense.com/no-permission/).
 [See Definition](https://www.csusa.org/page/Definitions#exclusiveright)

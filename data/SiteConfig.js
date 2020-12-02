@@ -1,9 +1,9 @@
 const config = {
   siteTitle: "Developers at irabu", // Site title.
-  siteTitleShort: "irabu.dev", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleShort: "irabu.co.tz", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Developers arena at irabu", // Alternative site title for SEO.
   siteLogo: "/logos/irabu.svg", // Logo used for SEO and manifest.
-  siteUrl: "https://irabu.dev", // Domain of your website without pathPrefix.
+  siteUrl: "https://irabu.co.tz", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Build to simplify.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.

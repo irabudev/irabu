@@ -16,8 +16,8 @@ services:
         - ./nginx/sites/:/etc/nginx/sites-available
         - ./nginx/ssl/:/etc/nginx/ssl
       environment:
-        VIRTUAL_HOST: irabu.dev
-        LETSENCRYPT_HOST: irabu.dev
+        VIRTUAL_HOST: irabu.co.tz
+        LETSENCRYPT_HOST: irabu.co.tz
         LETSENCRYPT_EMAIL: info@irabu.co.tz
       networks:
         - default

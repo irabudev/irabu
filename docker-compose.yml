@@ -16,8 +16,8 @@ services:
     ports:
       - "80"
     environment:
-      VIRTUAL_HOST: irabu.dev
-      LETSENCRYPT_HOST: irabu.dev
+      VIRTUAL_HOST: irabu.co.tz
+      LETSENCRYPT_HOST: irabu.co.tz
       LETSENCRYPT_EMAIL: info@irabu.co.tz
     networks:
       - default

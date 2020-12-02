@@ -14,7 +14,7 @@ const Header = () => {
                 <Link to="/">
                   <img
                     src={irabuLogo}
-                    className="img-fluid h-8"
+                    className="img-fluid h-12"
                     alt="irabu logo"
                   />
                 </Link>

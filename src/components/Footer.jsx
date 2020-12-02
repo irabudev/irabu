@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import config from "../../data/SiteConfig";
+import irabu from "../../static/logos/irabu.svg";
 
 function Footer() {
   const { copyright } = config;
@@ -14,7 +15,7 @@ function Footer() {
           <div className="row footer-widget-wrapper">
             <div className="col-lg-6 col-md-6 col-sm-6 footer-widget">
               <div className="footer-widget__logo mb-30">
-                {/* <img src="assets/images/logo/dark-logo-160x48.png" className="img-fluid" alt=""> */}
+                <img src={irabu} className="img-fluid h-8" alt="irabu logo"/>
               </div>
               <ul className="footer-widget__list">
                 <li>Kilongawima Street Dar es Salaam, Tanzania</li>
@@ -36,10 +37,10 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://irabu.dev/"
+                    href="https://irabu.co.tz/"
                     className="hover-style-link text-color-primary"
                   >
-                    irabu.dev
+                    irabu.co.tz
                   </a>
                 </li>
               </ul>
@@ -73,17 +74,17 @@ function Footer() {
               <h6 className="footer-widget__title mb-20">Legal</h6>
               <ul className="footer-widget__list">
                 <li>
-                  <Link to="#" className="hover-style-link">
+                  <Link to="/terms/" className="hover-style-link">
                     Terms and Condition
                   </Link>
                 </li>
                 <li>
-                  <Link to="#" className="hover-style-link">
+                  <Link to="/privacy/" className="hover-style-link">
                     Privacy Policy
                   </Link>
                 </li>
                 <li>
-                  <Link to="#" className="hover-style-link">
+                  <Link to="/disclaimer/" className="hover-style-link">
                     Disclaimer
                   </Link>
                 </li>

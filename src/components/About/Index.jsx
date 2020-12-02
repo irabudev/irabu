@@ -10,7 +10,7 @@ function About() {
               <h1 className="heading  text-white">
                 Lets grab a
                 <span className="text-color-primary">
-                  cup of coffee <br /> or tea
+                &nbsp;cup of coffee <br /> or tea
                 </span>{" "}
                 &amp;
                 <span className="text-color-primary"> chat.</span>
