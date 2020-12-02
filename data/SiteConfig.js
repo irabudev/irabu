@@ -10,13 +10,14 @@ const config = {
   siteRssTitle: "Irabu Developers RSS feed", // Title of the RSS feed
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
+  // disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   postsPerPage: 4, // Amount of posts displayed per listing page.
-  userName: "Kandege Kiotani", // Username to display in the author segment.
-  userEmail: "kiotanifoundation@gmail.com", // Email used for RSS feed's author segment
-  userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
-  userLocation: "Somewhere on, Earth", // User location to display in the author segment.
+  userName: "irabu", // Username to display in the author segment.
+  userEmail: "developers@irabu.co.tz", // Email used for RSS feed's author segment
+  userTwitter: "irabudev", // Optionally renders "Follow Me" in the UserInfo segment.
+  userLocation: "Dar es Salaam, Tanzania", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription:
     "“There’s a big difference between making a simple product & making a product simple.” - Des Traynor.", // User description to display in the author segment.
@@ -25,22 +26,22 @@ const config = {
     {
       label: "GitHub",
       url: "https://github.com/irabudev",
-      iconClassName: "fa fa-github"
+      iconClassName: "fa fa-github",
     },
     {
       label: "Twitter",
       url: "https://twitter.com/irabudev",
-      iconClassName: "fa fa-twitter"
+      iconClassName: "fa fa-twitter",
     },
     {
       label: "Email",
       url: "mailto:developers@irabu.co.tz",
-      iconClassName: "fa fa-envelope"
-    }
+      iconClassName: "fa fa-envelope",
+    },
   ],
   copyright: "IRABU COMPANY LTD, All Rights Reserved", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#e0e0e0" // Used for setting manifest background color.
+  backgroundColor: "#e0e0e0", // Used for setting manifest background color.
 };
 
 // Validate

@@ -18,7 +18,7 @@ Fork the project, make your changes there and merge new features when needed.
 Alternatively:
 
 ```sh
-git clone https://github.com/irabuhq/irabu irabu # Clone the project
+git clone https://github.com/irabudev/irabudev irabu # Clone the project
 cd irabu
 yarn install # or yarn install
 yarn develop # or gatsby develop
