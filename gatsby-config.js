@@ -71,6 +71,7 @@ module.exports = {
       resolve: "gatsby-plugin-nprogress",
       options: {
         color: config.themeColor,
+        showSpiner: true
       },
     },
     "gatsby-plugin-sharp",
