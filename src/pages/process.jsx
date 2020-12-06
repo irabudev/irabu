@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Layout from "../layout";
+import HireUs from "../components/HireUs";
 import { useIntl } from "gatsby-plugin-intl";
 import config from "../../data/SiteConfig";
 
@@ -262,6 +263,7 @@ function Process() {
           </div>
         </div>
       </div>
+      <HireUs />
     </Layout>
   );
 }
