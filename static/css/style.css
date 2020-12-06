@@ -7312,12 +7312,12 @@ input[type="checkbox"] {
   width: 100%;
 }
 
-.brand-logo-slider__one .brand-logo:hover .brand-logo__image {
+/* .brand-logo-slider__one .brand-logo:hover .brand-logo__image {
   visibility: hidden;
   opacity: 0;
   -webkit-transform: scale(0.8, 0.8);
   transform: scale(0.8, 0.8);
-}
+} */
 
 .brand-logo-slider__one .brand-logo:hover .brand-logo__image-hover {
   opacity: 1;
