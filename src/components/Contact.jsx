@@ -10,9 +10,9 @@ function Contact() {
           <div className="col-lg-6 col-lg-6">
             <div className="conact-us-wrap-one">
               <h3 className="heading">
-                Obtaining further information by{" "}
-                <span className="text-color-primary">make a contact</span> with
-                our experienced IT staffs.{" "}
+                Interested in seeing what it{" "}
+                <span className="text-color-primary">costs to build </span> an
+                app?{" "}
               </h3>
 
               <div className="sub-heading">

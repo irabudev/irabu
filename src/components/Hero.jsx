@@ -1,8 +1,11 @@
 import React from "react";
+import { useIntl, Link } from "gatsby-plugin-intl";
 import kuli from "../../static/images/kuli.png";
 import code from "../../static/images/carbon.svg";
 
 function Landing() {
+  const intl = useIntl();
+
   return (
     <div className="infotechno-hero infotechno-bg">
       <div className="container-fluid py-4">
@@ -17,14 +20,12 @@ function Landing() {
                 Highly Tailored IT Design, Management &amp; Support Services.{" "}
               </p>
               <div className="hero-button  mt-30">
-                <a
-                  href="https://irabu.co.tz"
-                  target="_blank"
-                  rel="noreferrer"
+                <Link
+                  to="/process/"
                   className="ht-btn ht-btn-md"
                 >
-                  See what we do
-                </a>
+                  See what our process
+                </Link>
               </div>
             </div>
           </div>

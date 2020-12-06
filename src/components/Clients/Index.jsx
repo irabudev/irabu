@@ -20,10 +20,13 @@ function Clients() {
           <div className="col-lg-12">
             <div className="section-title-wrapper text-center section-space--mb_60 wow move-up">
               <h6 className="section-sub-title mb-20">Our clients</h6>
-              {/* <h3 className="section-title">
-                Clients we have worked with
-                <span className="text-color-primary"> 38 years</span>{" "}
-              </h3> */}
+              <h3 className="section-title">
+                Take a look at some of our
+                <span className="text-color-primary">
+                  {" "}
+                  most recent work.
+                </span>{" "}
+              </h3>
             </div>
           </div>
         </div>
@@ -67,7 +70,7 @@ function Clients() {
                         <div className="brand-logo__image">
                           <img
                             src={io}
-                            className="img-fluid width-160"
+                            className="img-fluid width-160 h-16"
                             alt="Binary Institue of Technology"
                           />
                         </div>

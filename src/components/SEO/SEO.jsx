@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import urljoin from "url-join";
 import moment from "moment";
 import config from "../../../data/SiteConfig";
+import favicon from "../../../static/favicon.png";
 
 function SEO({ postNode, postPath, postSEO }) {
   let title;
@@ -138,6 +139,8 @@ function SEO({ postNode, postPath, postSEO }) {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
+
+      <link rel='shortcut icon' type='image/png' href={favicon} />
     </Helmet>
   );
 }

@@ -29,7 +29,7 @@ function Tech() {
                     <div className="illustration-svg">
                       <div className="rounded-full w-16 h-16 overflow-hidden border-4 border-white shadow bg-white flex items-center justify-center | sm:w-16sm:h-16">
                         <div className="w-half">
-                          <img src={laravel} />
+                          <img src={laravel} className="h-6 w-auto"/>
                         </div>
                       </div>
                     </div>
@@ -41,7 +41,7 @@ function Tech() {
                     <div className="illustration-svg">
                       <div className="rounded-full w-16 h-16 overflow-hidden border-4 border-white shadow bg-white flex items-center justify-center | sm:w-16sm:h-16">
                         <div className="w-half">
-                          <img src={vue} />
+                          <img src={vue} className="h-6 w-auto"/>
                         </div>
                       </div>
                     </div>
@@ -53,7 +53,7 @@ function Tech() {
                     <div className="illustration-svg">
                       <div className="rounded-full w-16 h-16 overflow-hidden border-4 border-white shadow bg-white flex items-center justify-center | sm:w-16sm:h-16">
                         <div className="w-half">
-                          <img src={js} />
+                          <img src={js} className="h-6 w-auto"/>
                         </div>
                       </div>
                     </div>
@@ -65,7 +65,7 @@ function Tech() {
                     <div className="illustration-svg">
                       <div className="rounded-full w-16 h-16 overflow-hidden border-4 border-white shadow bg-white flex items-center justify-center | sm:w-16sm:h-16">
                         <div className="w-half">
-                          <img src={swift} />
+                          <img src={swift} className="h-6 w-auto"/>
                         </div>
                       </div>
                     </div>
@@ -77,7 +77,7 @@ function Tech() {
                     <div className="illustration-svg">
                       <div className="rounded-full w-16 h-16 overflow-hidden border-4 border-white shadow bg-white flex items-center justify-center | sm:w-16sm:h-16">
                         <div className="w-half">
-                          <img src={php} />
+                          <img src={php} className="h-6 w-auto"/>
                         </div>
                       </div>
                     </div>
@@ -89,7 +89,7 @@ function Tech() {
                     <div className="illustration-svg">
                       <div className="rounded-full w-16 h-16 overflow-hidden border-4 border-white shadow bg-white flex items-center justify-center | sm:w-16sm:h-16">
                         <div className="w-half">
-                          <img src={json} />
+                          <img src={json} className="h-6 w-auto"/>
                         </div>
                       </div>
                     </div>
@@ -101,7 +101,7 @@ function Tech() {
                     <div className="illustration-svg">
                       <div className="rounded-full w-16 h-16 overflow-hidden border-4 border-white shadow bg-white flex items-center justify-center | sm:w-16sm:h-16">
                         <div className="w-half">
-                          <img src={java} />
+                          <img src={java} className="h-6 w-auto"/>
                         </div>
                       </div>
                     </div>
@@ -113,7 +113,7 @@ function Tech() {
                     <div className="illustration-svg">
                       <div className="rounded-full w-16 h-16 overflow-hidden border-4 border-white shadow bg-white flex items-center justify-center | sm:w-16sm:h-16">
                         <div className="w-half">
-                          <img src={elasticsearch} />
+                          <img src={elasticsearch} className="h-6 w-auto"/>
                         </div>
                       </div>
                     </div>
@@ -125,7 +125,7 @@ function Tech() {
                     <div className="illustration-svg">
                       <div className="rounded-full w-16 h-16 overflow-hidden border-4 border-white shadow bg-white flex items-center justify-center | sm:w-16sm:h-16">
                         <div className="w-half">
-                          <img src={docker} />
+                          <img src={docker} className="h-6 w-auto"/>
                         </div>
                       </div>
                     </div>
@@ -137,7 +137,7 @@ function Tech() {
                     <div className="illustration-svg">
                       <div className="rounded-full w-16 h-16 overflow-hidden border-4 border-white shadow bg-white flex items-center justify-center | sm:w-16sm:h-16">
                         <div className="w-half">
-                          <img src={vscode} />
+                          <img src={vscode} className="h-6 w-auto"/>
                         </div>
                       </div>
                     </div>
@@ -149,7 +149,7 @@ function Tech() {
                     <div className="illustration-svg">
                       <div className="rounded-full w-16 h-16 overflow-hidden border-4 border-white shadow bg-white flex items-center justify-center | sm:w-16sm:h-16">
                         <div className="w-half">
-                          <img src={mysql} />
+                          <img src={mysql} className="h-6 w-auto"/>
                         </div>
                       </div>
                     </div>
@@ -161,7 +161,7 @@ function Tech() {
                     <div className="illustration-svg">
                       <div className="rounded-full w-16 h-16 overflow-hidden border-4 border-white shadow bg-white flex items-center justify-center | sm:w-16sm:h-16">
                         <div className="w-half">
-                          <img src={mariadb} />
+                          <img src={mariadb} className="h-6 w-auto"/>
                         </div>
                       </div>
                     </div>
@@ -173,7 +173,7 @@ function Tech() {
                     <div className="illustration-svg">
                       <div className="rounded-full w-16 h-16 overflow-hidden border-4 border-white shadow bg-white flex items-center justify-center | sm:w-16sm:h-16">
                         <div className="w-half">
-                          <img src={react} />
+                          <img src={react} className="h-6 w-auto"/>
                         </div>
                       </div>
                     </div>
