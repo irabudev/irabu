@@ -32,10 +32,10 @@ function Landing() {
           <div className="col-lg-6 col-md-6">
             <div className="infotechno-hero-inner-images">
               <div className="infotechno-inner-one z-10">
-                <img className="img-fluid h-auto w-2/3 -mb-9 ml-44" src={kuli} alt="Kuli"/>
+                <img className="img-fluid h-auto md:w-2/3 2xl:w-1/2 -mb-9 2xl:ml-44 ml-24" src={kuli} alt="Kuli"/>
               </div>
               <div className="infotechno-inner-two wow move-up">
-              <img className="img-fluid h-auto w-3/4 -ml-16 -mb-11" src={code} alt="Coding"/>
+              <img className="img-fluid h-auto md:w-3/4 2xl:w-2/3 -mb-11 2xl:-ml-16 -ml-4" src={code} alt="Coding"/>
               </div>
             </div>
           </div>

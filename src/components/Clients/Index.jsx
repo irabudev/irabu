@@ -66,12 +66,12 @@ function Clients() {
                     </div>
 
                     <div className="brand-logo brand-logo--slider">
-                      <a href="http://bit.africa/" target="_blank">
+                      <a href="https://jiranileo.com/" target="_blank">
                         <div className="brand-logo__image">
                           <img
-                            src={io}
-                            className="img-fluid width-160 h-16"
-                            alt="Binary Institue of Technology"
+                            src={jiranileo}
+                            className="img-fluid width-160"
+                            alt="Jiranleo"
                           />
                         </div>
                       </a>
@@ -90,24 +90,24 @@ function Clients() {
                     </div>
 
                     <div className="brand-logo brand-logo--slider">
-                      <a href="https://jiranileo.com/" target="_blank">
-                        <div className="brand-logo__image">
-                          <img
-                            src={jiranileo}
-                            className="img-fluid width-160"
-                            alt="Jiranleo"
-                          />
-                        </div>
-                      </a>
-                    </div>
-
-                    <div className="brand-logo brand-logo--slider">
                       <a href="https://exlprivatebank.com/" target="_blank">
                         <div className="brand-logo__image">
                           <img
                             src={exl}
                             className="img-fluid width-160"
                             alt="EXL Private Bank"
+                          />
+                        </div>
+                      </a>
+                    </div>
+
+                    <div className="brand-logo brand-logo--slider">
+                      <a href="http://bit.africa/" target="_blank">
+                        <div className="brand-logo__image">
+                          <img
+                            src={io}
+                            className="img-fluid width-160 h-16"
+                            alt="Binary Institue of Technology"
                           />
                         </div>
                       </a>
