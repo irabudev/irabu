@@ -106,6 +106,7 @@ function Clients() {
                         <div className="brand-logo__image">
                           <img
                             src={io}
+                            style={{ height: `4.5em`}}
                             className="img-fluid width-160 h-16"
                             alt="Binary Institue of Technology"
                           />

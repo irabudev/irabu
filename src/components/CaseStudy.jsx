@@ -89,19 +89,25 @@ function CaseStudy() {
                     id: "index-jiranileo",
                   })}
                 </div>
-                <a
-                  href="https://play.google.com/store/apps/details?id=tz.co.irabu.jiranileorsvp"
-                  className="text-color-primary"
-                >
-                  <span>
-                    <img className="width-160 h-9" src={comingSoon} />
-                  </span>
-                </a>
-                <a href="#" className="text-color-primary">
-                  <span>
-                    <img className="width-160 h-12" src={playstore} />
-                  </span>
-                </a>
+                <div class="flex space-x-1">
+                  <div class="flex-1 ...">
+                    <a href="#" className="text-color-primary">
+                      <span>
+                        <img className="width-160 h-12" src={comingSoon} />
+                      </span>
+                    </a>
+                  </div>
+                  <div class="flex-1">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=tz.co.irabu.jiranileorsvp"
+                      className="text-color-primary"
+                    >
+                      <span>
+                        <img className="width-160 h-16" src={playstore} />
+                      </span>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
