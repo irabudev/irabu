@@ -1,7 +1,7 @@
 const urljoin = require("url-join");
-// const path = require("path");
 const config = require("./data/SiteConfig");
-const tailwindConfig = require("./tailwind.config.js");
+// const path = require("path");
+// const tailwindConfig = require("./tailwind.config.js");
 
 // Make sure that pathPrefix is not empty
 const validatedPathPrefix = config.pathPrefix === "" ? "/" : config.pathPrefix;
