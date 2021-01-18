@@ -153,7 +153,7 @@ function Footer() {
                 </li>
                 <li className="item">
                   <a
-                    href="https://instagram.com/irabudev"
+                    href="https://instagram.com/irabu.dev"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Instagram"
