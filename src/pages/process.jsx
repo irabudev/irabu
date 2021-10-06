@@ -20,7 +20,7 @@ function Process() {
                   Simple and custom is achievable
                 </h1>
                 <h5 className="font-weight--normal text-white">
-                  We craft SIMPLE &amp; VALUABLE solutions to everday challenges
+                  We craft SIMPLE &amp; VALUABLE solutions to everyday challenges
                 </h5>
               </div>
             </div>

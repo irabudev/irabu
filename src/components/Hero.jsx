@@ -14,7 +14,7 @@ function Landing() {
             <div className="infotechno-hero-text wow move-up">
               <h6>Build to simplify</h6>
               <h1 className="font-weight--reguler mb-15">
-                We craft SIMPLE &amp; VALUABLE solutions to everday challenges
+                We craft SIMPLE &amp; VALUABLE solutions to everyday challenges
               </h1>
               <p>
                 Highly Tailored IT Design, Management &amp; Support Services.{" "}
