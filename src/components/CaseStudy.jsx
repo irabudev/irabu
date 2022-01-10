@@ -26,7 +26,7 @@ function CaseStudy() {
           </div>
         </div>
         <div className="service-slider__project">
-          <div className="row">
+          {/* <div className="row">
             <div className="slide-content col-lg-6 col-xl-5">
               <div className="service-project-slide-info">
                 <h4 className="heading font-weight--reguler mb-10">Gorocket</h4>
@@ -63,7 +63,7 @@ function CaseStudy() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="row my-4 pb-5">
             <div className="col-lg-6 col-xl-7">
               <div className="slide-image">
