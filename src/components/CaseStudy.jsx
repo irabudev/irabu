@@ -89,15 +89,15 @@ function CaseStudy() {
                     id: "index-jiranileo",
                   })}
                 </div>
-                <div class="flex space-x-1">
-                  <div class="flex-1 ...">
+                <div className="flex space-x-1">
+                  <div className="flex-1 ...">
                     <a href="#" className="text-color-primary">
                       <span>
                         <img className="width-160 h-12" src={comingSoon} />
                       </span>
                     </a>
                   </div>
-                  <div class="flex-1">
+                  <div className="flex-1">
                     <a
                       href="https://play.google.com/store/apps/details?id=tz.co.irabu.jiranileorsvp"
                       className="text-color-primary"

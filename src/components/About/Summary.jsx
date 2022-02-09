@@ -37,7 +37,7 @@ function Summary() {
             <div className="col-lg-5 offset-lg-1">
               <div className="cybersecurity-about-text">
                 <div className="text">
-                {intl.formatMessage({ id: "about-sec_1" })}
+                  {intl.formatMessage({ id: "about-sec_1" })}
                 </div>
                 <div className="button-text">
                   <Link to="index-cybersecurity.html#" className="btn-text">

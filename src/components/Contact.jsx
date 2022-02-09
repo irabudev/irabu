@@ -36,14 +36,14 @@ function Contact() {
                   href="https://wa.me/255762485764"
                   target="_blank"
                   className="btn mr-1"
-                  style={{ backgroundColor: `#25D366` }}
+                  style={{ backgroundColor: `#25D366` }} rel="noreferrer"
                 >
                   WhatsApp
                 </a>
                 <a
                   href="https://t.me/irabu_company"
                   target="_blank"
-                  className="btn ml-1"
+                  className="btn ml-1" rel="noreferrer"
                 >
                   Telegram
                 </a>

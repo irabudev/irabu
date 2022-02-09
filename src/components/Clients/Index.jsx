@@ -42,7 +42,7 @@ function Clients() {
                 <div className="tab-history-wrap section-space--mt_60 brand-logo-slider__one">
                   <div className="modern-grid--6">
                     <div className="brand-logo brand-logo--slider">
-                      <a href="https://flashnet.co.tz/" target="_blank">
+                      <a href="https://flashnet.co.tz/" target="_blank" rel="noreferrer">
                         <div className="brand-logo__image">
                           <img
                             src={flashnet}
@@ -54,7 +54,7 @@ function Clients() {
                     </div>
 
                     <div className="brand-logo brand-logo--slider">
-                      <a href="https://aashiqshariff.com/" target="_blank">
+                      <a href="https://aashiqshariff.com/" target="_blank" rel="noreferrer">
                         <div className="brand-logo__image">
                           <img
                             src={cpj}
@@ -66,7 +66,7 @@ function Clients() {
                     </div>
 
                     <div className="brand-logo brand-logo--slider">
-                      <a href="https://jiranileo.com/" target="_blank">
+                      <a href="https://jiranileo.com/" target="_blank" rel="noreferrer">
                         <div className="brand-logo__image">
                           <img
                             src={jiranileo}
@@ -90,7 +90,7 @@ function Clients() {
                     </div>
 
                     <div className="brand-logo brand-logo--slider">
-                      <a href="https://exlprivatebank.com/" target="_blank">
+                      <a href="https://exlprivatebank.com/" target="_blank" rel="noreferrer">
                         <div className="brand-logo__image">
                           <img
                             src={exl}
@@ -102,11 +102,11 @@ function Clients() {
                     </div>
 
                     <div className="brand-logo brand-logo--slider">
-                      <a href="http://bit.africa/" target="_blank">
+                      <a href="http://bit.africa/" target="_blank" rel="noreferrer">
                         <div className="brand-logo__image">
                           <img
                             src={io}
-                            style={{ height: `4.5em`}}
+                            style={{ height: `4.5em` }}
                             className="img-fluid width-160 h-16"
                             alt="Binary Institue of Technology"
                           />
@@ -115,7 +115,7 @@ function Clients() {
                     </div>
 
                     <div className="brand-logo brand-logo--slider">
-                      <a href="http://www.nuktaafrica.co.tz/" target="_blank">
+                      <a href="http://www.nuktaafrica.co.tz/" target="_blank" rel="noreferrer">
                         <div className="brand-logo__image">
                           <img
                             src={nukta}
@@ -127,7 +127,7 @@ function Clients() {
                     </div>
 
                     <div className="brand-logo brand-logo--slider">
-                      <a href="https://gepc.or.tz/" target="_blank">
+                      <a href="https://gepc.or.tz/" target="_blank" rel="noreferrer">
                         <div className="brand-logo__image">
                           <img
                             src={gepc}
@@ -139,7 +139,7 @@ function Clients() {
                     </div>
 
                     <div className="brand-logo brand-logo--slider">
-                      <a href="http://mowara.com/" target="_blank">
+                      <a href="http://mowara.com/" target="_blank" rel="noreferrer">
                         <div className="brand-logo__image">
                           <img
                             src={mowara}
@@ -151,7 +151,7 @@ function Clients() {
                     </div>
 
                     <div className="brand-logo brand-logo--slider">
-                      <a href="https://tcsaa.or.tz/" target="_blank">
+                      <a href="https://tcsaa.or.tz/" target="_blank" rel="noreferrer">
                         <div className="brand-logo__image">
                           <img
                             src={tcsaa}
@@ -162,7 +162,7 @@ function Clients() {
                       </a>
                     </div>
                     <div className="brand-logo brand-logo--slider">
-                      <a href="https://demichtoph.co.tz/" target="_blank">
+                      <a href="https://demichtoph.co.tz/" target="_blank" rel="noreferrer">
                         <div className="brand-logo__image">
                           <img
                             src={demichtoph}
@@ -173,7 +173,7 @@ function Clients() {
                       </a>
                     </div>
                     <div className="brand-logo brand-logo--slider">
-                      <a href="https://reliance.or.tz/" target="_blank">
+                      <a href="https://reliance.or.tz/" target="_blank" rel="noreferrer">
                         <div className="brand-logo__image">
                           <img
                             src={self}

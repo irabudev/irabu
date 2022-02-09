@@ -15,7 +15,12 @@ function Footer() {
           <div className="row footer-widget-wrapper">
             <div className="col-lg-6 col-md-6 col-sm-6 footer-widget">
               <div className="footer-widget__logo mb-30">
-                <img src={irabu} className="img-fluid" style={{ height: `2em`}} alt="irabu logo"/>
+                <img
+                  src={irabu}
+                  className="img-fluid"
+                  style={{ height: `2em` }}
+                  alt="irabu logo"
+                />
               </div>
               <ul className="footer-widget__list">
                 <li>Kilongawima Street Dar es Salaam, Tanzania</li>
@@ -45,7 +50,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            
+
             <div className="col-lg-3 col-md-4 col-sm-6 footer-widget">
               <h6 className="footer-widget__title mb-20">Legal</h6>
               <ul className="footer-widget__list">

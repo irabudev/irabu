@@ -1,53 +1,54 @@
 /*
-*   Wavify
-*   JavaScript library to make some nice waves
-*   by peacepostman @ crezeo
+ *   Wavify
+ *   JavaScript library to make some nice waves
+ *   by peacepostman @ crezeo
  */
 
 function wavify(wave_element, options) {
-  if ("undefined" === typeof options) options = {};
+  if (typeof options === "undefined") options = {};
 
   //  Options
   //
   //
-    var extend = function () {
+  var extend = function () {
+    // Variables
+    const extended = {};
+    let deep = false;
+    let i = 0;
+    const {length} = arguments;
 
-        // Variables
-        var extended = {};
-        var deep = false;
-        var i = 0;
-        var length = arguments.length;
+    // Check if a deep merge
+    if (Object.prototype.toString.call(arguments[0]) === "[object Boolean]") {
+      deep = arguments[0];
+      i++;
+    }
 
-        // Check if a deep merge
-        if ( Object.prototype.toString.call( arguments[0] ) === '[object Boolean]' ) {
-            deep = arguments[0];
-            i++;
+    // Merge the object into the extended object
+    const merge = function (obj) {
+      for (const prop in obj) {
+        if (Object.prototype.hasOwnProperty.call(obj, prop)) {
+          // If deep merge and property is an object, merge properties
+          if (
+            deep &&
+            Object.prototype.toString.call(obj[prop]) === "[object Object]"
+          ) {
+            extended[prop] = extend(true, extended[prop], obj[prop]);
+          } else {
+            extended[prop] = obj[prop];
+          }
         }
-
-        // Merge the object into the extended object
-        var merge = function (obj) {
-            for ( var prop in obj ) {
-                if ( Object.prototype.hasOwnProperty.call( obj, prop ) ) {
-                    // If deep merge and property is an object, merge properties
-                    if ( deep && Object.prototype.toString.call(obj[prop]) === '[object Object]' ) {
-                        extended[prop] = extend( true, extended[prop], obj[prop] );
-                    } else {
-                        extended[prop] = obj[prop];
-                    }
-                }
-            }
-        };
-
-        // Loop through each object and conduct a merge
-        for ( ; i < length; i++ ) {
-            var obj = arguments[i];
-            merge(obj);
-        }
-
-        return extended;
-
+      }
     };
-  var settings = extend(
+
+    // Loop through each object and conduct a merge
+    for (; i < length; i++) {
+      const obj = arguments[i];
+      merge(obj);
+    }
+
+    return extended;
+  };
+  let settings = extend(
     {},
     {
       container: options.container ? options.container : "body",
@@ -60,91 +61,96 @@ function wavify(wave_element, options) {
       // Total number of articulation in wave
       bones: 3,
       // Color
-      color: "rgba(255,255,255, 0.20)"
+      color: "rgba(255,255,255, 0.20)",
     },
     options
   );
 
-  var wave = wave_element,
-    width = document.querySelector(settings.container).getBoundingClientRect().width,
-    height = document.querySelector(settings.container).getBoundingClientRect().height,
-    points = [],
-    lastUpdate,
-    totalTime = 0,
-    animationInstance = false,
-    tweenMaxInstance = false;
+  const wave = wave_element;
+    let {width} = document
+      .querySelector(settings.container)
+      .getBoundingClientRect();
+    let {height} = document
+      .querySelector(settings.container)
+      .getBoundingClientRect();
+    let points = [];
+    let lastUpdate;
+    let totalTime = 0;
+    let animationInstance = false;
+    let tweenMaxInstance = false;
 
   //  Allow new settings, avoid setting new container for logic purpose please :)
   //
   function rebuilSettings(params) {
-    settings = Object.assign({}, settings, params);
+    settings = { ...settings, ...params};
   }
 
   function drawPoints(factor) {
-    var points = [];
+    const points = [];
 
-    for (var i = 0; i <= settings.bones; i++) {
-      var x = (i / settings.bones) * width;
-      var sinSeed = (factor + (i + (i % settings.bones))) * settings.speed * 100;
-      var sinHeight = Math.sin(sinSeed / 100) * settings.amplitude;
-      var yPos = Math.sin(sinSeed / 100) * sinHeight + settings.height;
-      points.push({ x: x, y: yPos });
+    for (let i = 0; i <= settings.bones; i++) {
+      const x = (i / settings.bones) * width;
+      const sinSeed =
+        (factor + (i + (i % settings.bones))) * settings.speed * 100;
+      const sinHeight = Math.sin(sinSeed / 100) * settings.amplitude;
+      const yPos = Math.sin(sinSeed / 100) * sinHeight + settings.height;
+      points.push({ x, y: yPos });
     }
 
     return points;
   }
 
   function drawPath(points) {
-    var SVGString = "M " + points[0].x + " " + points[0].y;
+    let SVGString = `M ${  points[0].x  } ${  points[0].y}`;
 
-    var cp0 = {
+    const cp0 = {
       x: (points[1].x - points[0].x) / 2,
-      y: points[1].y - points[0].y + points[0].y + (points[1].y - points[0].y)
+      y: points[1].y - points[0].y + points[0].y + (points[1].y - points[0].y),
     };
 
     SVGString +=
-      " C " +
-      cp0.x +
-      " " +
-      cp0.y +
-      " " +
-      cp0.x +
-      " " +
-      cp0.y +
-      " " +
-      points[1].x +
-      " " +
-      points[1].y;
+      ` C ${ 
+      cp0.x 
+      } ${ 
+      cp0.y 
+      } ${ 
+      cp0.x 
+      } ${ 
+      cp0.y 
+      } ${ 
+      points[1].x 
+      } ${ 
+      points[1].y}`;
 
-    var prevCp = cp0;
-    var inverted = -1;
+    let prevCp = cp0;
+    let inverted = -1;
 
-    for (var i = 1; i < points.length - 1; i++) {
-      var cpLength = Math.sqrt(prevCp.x * prevCp.x + prevCp.y * prevCp.y);
-      var cp1 = {
+    for (let i = 1; i < points.length - 1; i++) {
+      const cpLength = Math.sqrt(prevCp.x * prevCp.x + prevCp.y * prevCp.y);
+      const cp1 = {
         x: points[i].x - prevCp.x + points[i].x,
-        y: points[i].y - prevCp.y + points[i].y
+        y: points[i].y - prevCp.y + points[i].y,
       };
 
       SVGString +=
-        " C " +
-        cp1.x +
-        " " +
-        cp1.y +
-        " " +
-        cp1.x +
-        " " +
-        cp1.y +
-        " " +
-        points[i + 1].x +
-        " " +
-        points[i + 1].y;
+        ` C ${ 
+        cp1.x 
+        } ${ 
+        cp1.y 
+        } ${ 
+        cp1.x 
+        } ${ 
+        cp1.y 
+        } ${ 
+        points[i + 1].x 
+        } ${ 
+        points[i + 1].y}`;
       prevCp = cp1;
       inverted = -inverted;
     }
 
-    SVGString += " L " + width + " " + height;
-    SVGString += " L 0 " + height + " Z";
+    SVGString += ` L ${  width  } ${  height}`;
+    SVGString += ` L 0 ${  height  } Z`;
     return SVGString;
   }
 
@@ -152,20 +158,20 @@ function wavify(wave_element, options) {
   //
   //
   function draw() {
-    var now = window.Date.now();
+    const now = window.Date.now();
 
     if (lastUpdate) {
-      var elapsed = (now - lastUpdate) / 1000;
+      const elapsed = (now - lastUpdate) / 1000;
       lastUpdate = now;
 
       totalTime += elapsed;
 
-      var factor = totalTime * Math.PI;
+      const factor = totalTime * Math.PI;
       tweenMaxInstance = TweenMax.to(wave, settings.speed, {
         attr: {
-          d: drawPath(drawPoints(factor))
+          d: drawPath(drawPoints(factor)),
         },
-        ease: Power1.easeInOut
+        ease: Power1.easeInOut,
       });
     } else {
       lastUpdate = now;
@@ -178,12 +184,12 @@ function wavify(wave_element, options) {
   //
   //
   function debounce(func, wait, immediate) {
-    var timeout;
-    return function() {
-      var context = this,
-        args = arguments;
+    let timeout;
+    return function () {
+      const context = this;
+        const args = arguments;
       clearTimeout(timeout);
-      timeout = setTimeout(function() {
+      timeout = setTimeout(function () {
         timeout = null;
         if (!immediate) func.apply(context, args);
       }, wait);
@@ -193,12 +199,16 @@ function wavify(wave_element, options) {
 
   //  Redraw for resize with debounce
   //
-  var redraw = debounce(function() {
+  const redraw = debounce(function () {
     pause();
     points = [];
     totalTime = 0;
-    width = document.querySelector(settings.container).getBoundingClientRect().width;
-    height = document.querySelector(settings.container).getBoundingClientRect().height;
+    width = document
+      .querySelector(settings.container)
+      .getBoundingClientRect().width;
+    height = document
+      .querySelector(settings.container)
+      .getBoundingClientRect().height;
     lastUpdate = false;
     play();
   }, 250);
@@ -243,14 +253,14 @@ function wavify(wave_element, options) {
     }
     tweenMaxInstance = TweenMax.to(wave, parseInt(options.timing), {
       attr: { fill: options.color },
-      onComplete: function() {
+      onComplete () {
         if (
           typeof options.onComplete !== undefined &&
           {}.toString.call(options.onComplete) === "[object Function]"
         ) {
           options.onComplete();
         }
-      }
+      },
     });
   }
 
@@ -266,8 +276,8 @@ function wavify(wave_element, options) {
         clearProps: "all",
         attr: {
           d: "M0,0",
-          fill: ""
-        }
+          fill: "",
+        },
       });
       window.removeEventListener("resize", redraw);
       animationInstance = false;
@@ -279,10 +289,10 @@ function wavify(wave_element, options) {
   boot();
 
   return {
-    reboot: reboot,
-    play: play,
-    pause: pause,
-    kill: kill,
-    updateColor: updateColor
+    reboot,
+    play,
+    pause,
+    kill,
+    updateColor,
   };
 }

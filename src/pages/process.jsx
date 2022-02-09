@@ -1,8 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { useIntl } from "gatsby-plugin-intl";
 import Layout from "../layout";
 import HireUs from "../components/HireUs";
-import { useIntl } from "gatsby-plugin-intl";
 import config from "../../data/SiteConfig";
 
 function Process() {
@@ -20,7 +20,8 @@ function Process() {
                   Simple and custom is achievable
                 </h1>
                 <h5 className="font-weight--normal text-white">
-                  We craft SIMPLE &amp; VALUABLE solutions to everyday challenges
+                  We craft SIMPLE &amp; VALUABLE solutions to everyday
+                  challenges
                 </h5>
               </div>
             </div>
@@ -60,12 +61,12 @@ function Process() {
                   className="item item-1 animate  wow fadeInRight"
                   data-wow-delay="0.1s"
                 >
-                  <div className="line"></div>
+                  <div className="line" />
                   <div className="circle-wrap">
                     <div className="mask">
-                      <div className="wave-pulse wave-pulse-1"></div>
-                      <div className="wave-pulse wave-pulse-2"></div>
-                      <div className="wave-pulse wave-pulse-3"></div>
+                      <div className="wave-pulse wave-pulse-1" />
+                      <div className="wave-pulse wave-pulse-2" />
+                      <div className="wave-pulse wave-pulse-3" />
                     </div>
 
                     <h6 className="circle">1</h6>
@@ -86,12 +87,12 @@ function Process() {
                   className="item item-1 animate  wow fadeInRight"
                   data-wow-delay="0.15s"
                 >
-                  <div className="line"></div>
+                  <div className="line" />
                   <div className="circle-wrap">
                     <div className="mask">
-                      <div className="wave-pulse wave-pulse-1"></div>
-                      <div className="wave-pulse wave-pulse-2"></div>
-                      <div className="wave-pulse wave-pulse-3"></div>
+                      <div className="wave-pulse wave-pulse-1" />
+                      <div className="wave-pulse wave-pulse-2" />
+                      <div className="wave-pulse wave-pulse-3" />
                     </div>
 
                     <h6 className="circle">2</h6>
@@ -112,12 +113,12 @@ function Process() {
                   className="item item-1 animate  wow fadeInRight"
                   data-wow-delay="0.20s"
                 >
-                  <div className="line"></div>
+                  <div className="line" />
                   <div className="circle-wrap">
                     <div className="mask">
-                      <div className="wave-pulse wave-pulse-1"></div>
-                      <div className="wave-pulse wave-pulse-2"></div>
-                      <div className="wave-pulse wave-pulse-3"></div>
+                      <div className="wave-pulse wave-pulse-1" />
+                      <div className="wave-pulse wave-pulse-2" />
+                      <div className="wave-pulse wave-pulse-3" />
                     </div>
 
                     <h6 className="circle">3</h6>
@@ -138,12 +139,12 @@ function Process() {
                   className="item item-1 animate wow fadeInRight"
                   data-wow-delay="0.25s"
                 >
-                  <div className="line"></div>
+                  <div className="line" />
                   <div className="circle-wrap">
                     <div className="mask">
-                      <div className="wave-pulse wave-pulse-1"></div>
-                      <div className="wave-pulse wave-pulse-2"></div>
-                      <div className="wave-pulse wave-pulse-3"></div>
+                      <div className="wave-pulse wave-pulse-1" />
+                      <div className="wave-pulse wave-pulse-2" />
+                      <div className="wave-pulse wave-pulse-3" />
                     </div>
 
                     <h6 className="circle">4</h6>
@@ -170,12 +171,12 @@ function Process() {
                   className="item item-1 animate  wow fadeInRight"
                   data-wow-delay="0.15s"
                 >
-                  <div className="line"></div>
+                  <div className="line" />
                   <div className="circle-wrap">
                     <div className="mask">
-                      <div className="wave-pulse wave-pulse-1"></div>
-                      <div className="wave-pulse wave-pulse-2"></div>
-                      <div className="wave-pulse wave-pulse-3"></div>
+                      <div className="wave-pulse wave-pulse-1" />
+                      <div className="wave-pulse wave-pulse-2" />
+                      <div className="wave-pulse wave-pulse-3" />
                     </div>
 
                     <h6 className="circle">5</h6>
@@ -192,7 +193,7 @@ function Process() {
                       <span className="button-text" data-text="Look more">
                         Look more
                       </span>
-                      <span className="button-icon far fa-long-arrow-right"></span>
+                      <span className="button-icon far fa-long-arrow-right" />
                     </a>
                   </div>
                 </div>
@@ -201,12 +202,12 @@ function Process() {
                   className="item item-1 animate  wow fadeInRight"
                   data-wow-delay="0.20s"
                 >
-                  <div className="line"></div>
+                  <div className="line" />
                   <div className="circle-wrap">
                     <div className="mask">
-                      <div className="wave-pulse wave-pulse-1"></div>
-                      <div className="wave-pulse wave-pulse-2"></div>
-                      <div className="wave-pulse wave-pulse-3"></div>
+                      <div className="wave-pulse wave-pulse-1" />
+                      <div className="wave-pulse wave-pulse-2" />
+                      <div className="wave-pulse wave-pulse-3" />
                     </div>
 
                     <h6 className="circle">6</h6>
@@ -223,7 +224,7 @@ function Process() {
                       <span className="button-text" data-text="Look more">
                         Look more{" "}
                       </span>
-                      <span className="button-icon far fa-long-arrow-right"></span>
+                      <span className="button-icon far fa-long-arrow-right" />
                     </a>
                   </div>
                 </div>
@@ -232,12 +233,12 @@ function Process() {
                   className="item item-1 animate wow fadeInRight"
                   data-wow-delay="0.25s"
                 >
-                  <div className="line"></div>
+                  <div className="line" />
                   <div className="circle-wrap">
                     <div className="mask">
-                      <div className="wave-pulse wave-pulse-1"></div>
-                      <div className="wave-pulse wave-pulse-2"></div>
-                      <div className="wave-pulse wave-pulse-3"></div>
+                      <div className="wave-pulse wave-pulse-1" />
+                      <div className="wave-pulse wave-pulse-2" />
+                      <div className="wave-pulse wave-pulse-3" />
                     </div>
 
                     <h6 className="circle">7</h6>
@@ -254,7 +255,7 @@ function Process() {
                       <span className="button-text" data-text="Look more">
                         Look more{" "}
                       </span>
-                      <span className="button-icon far fa-long-arrow-right"></span>
+                      <span className="button-icon far fa-long-arrow-right" />
                     </a>
                   </div>
                 </div>
