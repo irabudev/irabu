@@ -1,6 +1,6 @@
 import React from "react";
 import { useIntl, Link } from "gatsby-plugin-intl";
-import irabuLogo from "../../static/logos/irabu.svg";
+import irabuLogo from "../../static/logos/irabu.png";
 
 const Header = () => {
   const intl = useIntl();

@@ -45,32 +45,8 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-6 footer-widget">
-              <h6 className="footer-widget__title mb-20">What we do</h6>
-              <ul className="footer-widget__list">
-                <li>
-                  <Link to="#" className="hover-style-link">
-                    Consultation 
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="hover-style-link">
-                    UI/UX Design
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="hover-style-link">
-                    Apps Development
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="hover-style-link">
-                    QA Testing
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-6 footer-widget">
+            
+            <div className="col-lg-3 col-md-4 col-sm-6 footer-widget">
               <h6 className="footer-widget__title mb-20">Legal</h6>
               <ul className="footer-widget__list">
                 <li>
@@ -90,7 +66,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-6 footer-widget">
+            <div className="col-lg-3 col-md-4 col-sm-6 footer-widget">
               <h6 className="footer-widget__title mb-20">Others</h6>
               <ul className="footer-widget__list">
                 <li>
@@ -100,7 +76,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link to="#" className="hover-style-link">
-                    Careers
+                    Become part of team
                   </Link>
                 </li>
                 <li>
@@ -131,7 +107,7 @@ function Footer() {
               <ul className="list ht-social-networks solid-rounded-icon">
                 <li className="item">
                   <a
-                    href="https://twitter.com/irabudev"
+                    href="https://twitter.com/irabuteam"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Twitter"
@@ -142,7 +118,7 @@ function Footer() {
                 </li>
                 <li className="item">
                   <a
-                    href="https://facebook.com"
+                    href="https://facebook.com/irabuteam"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Facebook"
@@ -153,7 +129,7 @@ function Footer() {
                 </li>
                 <li className="item">
                   <a
-                    href="https://instagram.com/irabu.dev"
+                    href="https://instagram.com/irabuteam"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Instagram"
@@ -171,6 +147,17 @@ function Footer() {
                     className="social-link hint--bounce hint--top hint--primary"
                   >
                     <i className="fab fa-linkedin link-icon" />
+                  </a>
+                </li>
+                <li className="item">
+                  <a
+                    href="https://github.com/irabudev"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Github"
+                    className="social-link hint--bounce hint--top hint--primary"
+                  >
+                    <i className="fab fa-github link-icon" />
                   </a>
                 </li>
               </ul>

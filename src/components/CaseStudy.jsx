@@ -17,10 +17,10 @@ function CaseStudy() {
         <div className="row">
           <div className="col-lg-12">
             <div className="section-title-wrap text-center section-space--mb_60">
-              <h6 className="section-sub-title mb-20">Case studies</h6>
+              <h6 className="section-sub-title mb-20">We made this 👇🏽</h6>
               <h3 className="heading">
                 Proud projects that
-                <span className="text-color-primary"> make us stand out</span>
+                <span className="text-color-primary"> make us proud</span>
               </h3>
             </div>
           </div>
