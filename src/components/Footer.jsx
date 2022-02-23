@@ -23,7 +23,7 @@ function Footer() {
                 />
               </div>
               <ul className="footer-widget__list">
-                <li>Kilongawima Street Dar es Salaam, Tanzania</li>
+                <li> Dar es Salaam &amp; Arusha, Tanzania</li>
                 <li>
                   <a
                     href="mailto:developers@irabu.co.tz"
