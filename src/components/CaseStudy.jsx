@@ -1,7 +1,6 @@
 import React from "react";
 import { useIntl } from "gatsby-plugin-intl";
-import gorocket from "../../static/images/portfolio/gorocket.png";
-import jiranileo from "../../static/images/portfolio/jiranileo.png";
+import uza from "../../static/images/portfolio/1.png";
 import comingSoon from "../../static/images/ComingSoonAppStore.png";
 import playstore from "../../static/images/playstore.png";
 
@@ -71,8 +70,8 @@ function CaseStudy() {
                   <div className="image">
                     <img
                       className="img-fluid"
-                      src={jiranileo}
-                      alt="Jiranileo"
+                      src={uza}
+                      alt="uza"
                     />
                   </div>
                 </div>
@@ -81,33 +80,24 @@ function CaseStudy() {
             <div className="slide-content col-lg-6 col-xl-5">
               <div className="service-project-slide-info">
                 <h4 className="heading font-weight--reguler mb-10">
-                  Jiranileo RSVP
+                  UZA
                 </h4>
-                <p className="sub-text text-color-primary">iOS , ANDROID</p>
+                
                 <div className="text mb-10">
                   {intl.formatMessage({
-                    id: "index-jiranileo",
+                    id: "index-uza",
                   })}
                 </div>
-                <div className="flex space-x-1">
-                  <div className="flex-1 ...">
-                    <a href="#" className="text-color-primary">
-                      <span>
-                        <img className="width-160 h-12" src={comingSoon} />
-                      </span>
-                    </a>
-                  </div>
-                  <div className="flex-1">
-                    <a
-                      href="https://play.google.com/store/apps/details?id=tz.co.irabu.jiranileorsvp"
-                      className="text-color-primary"
-                    >
-                      <span>
-                        <img className="width-160 h-16" src={playstore} />
-                      </span>
-                    </a>
-                  </div>
-                </div>
+                <a
+                  href="https://uza.co.tz/"
+                  className="text-color-primary"
+                >
+                  <span>
+                    <i className="fas fa-chevron-right"></i>
+                    uza.co.tz
+                  </span>
+                </a>
+                
               </div>
             </div>
           </div>
