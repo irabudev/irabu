@@ -75,24 +75,24 @@ function Footer() {
               <h6 className="footer-widget__title mb-20">Others</h6>
               <ul className="footer-widget__list">
                 <li>
-                  <Link to="#" className="hover-style-link">
+                  <a href="https://t.me/irabu_company" className="hover-style-link">
                     Contact Us
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="#" className="hover-style-link">
+                  <a href="mailto:info@irabu.co.tz" className="hover-style-link">
                     Become part of team
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="#" className="hover-style-link">
+                  <a href="https://t.me/irabudev" className="hover-style-link">
                     Internship
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="#" className="hover-style-link">
+                  <a href="https://github.com/irabudev" className="hover-style-link">
                     Open Source
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -110,6 +110,17 @@ function Footer() {
             </div>
             <div className="col-md-6 text-center text-md-right">
               <ul className="list ht-social-networks solid-rounded-icon">
+                <li className="item">
+                  <a
+                    href="https://t.me/irabudev"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Irabu Channel"
+                    className="social-link hint--bounce hint--top hint--primary"
+                  >
+                    <i className="fab fa-telegram link-icon" />
+                  </a>
+                </li>
                 <li className="item">
                   <a
                     href="https://twitter.com/irabuteam"
