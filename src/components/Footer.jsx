@@ -34,7 +34,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="tel:*150*00#"
+                    href="tel:*150*00%23"
                     className="hover-style-link text-black font-weight--bold"
                   >
                     (+255)764 556463
